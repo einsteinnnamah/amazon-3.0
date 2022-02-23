@@ -6,20 +6,32 @@
     <title>amazon 3.0</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://use.fontawesome.com/releases/v6.0.0/js/all.js" integrity="sha384-l+HksIGR+lyuyBo1+1zCBSRt6v4yklWu7RbG0Cv+jDLDD9WFcEIwZLHioVB4Wkau" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="bg-white w-full">
+    <div class="bg-white w-full font-sans">
         <div class="header h-16 bg-gray-900 bg-auto flex">
-            <div class="logo w-1/5  h-16 ml-5 mt-2 flex">
-                <img class="w-28 h-16 object-contain" src="/imgs/logo.png">
-                <div class="location text-white">
-                    <p class="text-sm">Deliver to </p>
-                    <h5 >United Kindgom</h5>
+            <div class="logo w-1/5  h-16 ml-10 flex">
+                <img class="w-28 h-16 object-contain cursor-pointer" src="/imgs/logo.png">
+                <div class="location text-white flex items-center ml-3">
+                <div class="location-icon mr-1"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <p class="text-sm">Deliver to </p>
+                    <h5 class="text-sm">Nigeria</h5>
+                    </div>
+                    
+                    <select class="text-black ml-3 w- h-10" name="select-form" id="types-selection">
+                        <option value="All">All</option>
+                        <option value="All">All</option>
+                        <option value="All">All</option>
+
+                    </select>
+                
                 </div>
-               
-            </div>
-            <div class="location text-white mt-2">
                
             </div>
         </div>
