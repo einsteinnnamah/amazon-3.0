@@ -1,0 +1,11 @@
+.search-bar input{
+    width: 70rem;
+}
+
+.search-icon{
+    background-color: #FF9900;
+}
+
+.language{
+    color: gray;
+}

@@ -14,26 +14,47 @@
 <body>
 
     <div class="bg-white w-full font-sans">
-        <div class="header h-16 bg-gray-900 bg-auto flex">
-            <div class="logo w-1/5  h-16 ml-10 flex">
-                <img class="w-28 h-16 object-contain cursor-pointer" src="/imgs/logo.png">
-                <div class="location text-white flex items-center ml-3">
+        <div class="header h-16 bg-gray-900 bg-auto flex items-center">
+            <div class="logo w-28  h-12 ml-10  mr-5 flex">
+                <img class="w-28 h-12 object-contain cursor-pointer hover:border-white-700 hover:border-2 p-1" src="/imgs/logo.png">
+                </div>
+
+                <div class="location text-white flex items-center hover:border-white-700 hover:border-2">
                 <div class="location-icon mr-1"><i class="fa-solid fa-location-dot"></i></div>
-                    <div>
-                        <p class="text-sm">Deliver to </p>
-                    <h5 class="text-sm">Nigeria</h5>
+                    <div class="location-text w-20 cursor-pointer">
+                        <p class="text-sm text-gray">Deliver to</p>
+                    <p class="text-sm font-bold">Nigeria</p>
                     </div>
-                    
-                    <select class="text-black ml-3 w- h-10" name="select-form" id="types-selection">
+                    </div>
+
+                    <div class="search-bar flex ml-10 items-center">
+                        <select class="text-black w-auto h-10 rounded-sm border-2 border-black-700" name="select-form" id="types-selection">
                         <option value="All">All</option>
-                        <option value="All">All</option>
-                        <option value="All">All</option>
+                        <option value="All">Top</option>
+                        <option value="All">Art</option>
 
                     </select>
-                
-                </div>
-               
-            </div>
+                    <input type="text" class="h-10 rounded-sm" >
+                    <div class=" search-icon h-10 w-10 content-center flex items-center justify-center bg-yellow cursor-pointer rounded-sm" ><i class="fa-solid fa-magnifying-glass"></i></div>
+                    </div>
+                   
+                    <div class="language flex item-center ml-5 p-3 cursor-pointer hover:border-2 hover:border-white-700">
+                        <img class=" w-7 h-5" src="/imgs/USA-flag.png"><i class=" ml-1 fa-solid fa-caret-down"></i>
+                    </div>
+                    
+                    <div class="account-info w-30 cursor-pointer text-white hover:border-white-700 hover:border-2 p-2">
+                        <p class="text-sm text-gray">Hello, Einstein</p>
+                    <p class="text-sm font-bold">Account & Lists <i class=" ml-1 fa-solid fa-caret-down"></i></p>
+                    </div>
+            
+                      <div class="account-info w-30 cursor-pointer text-white hover:border-white-700 hover:border-2 p-2">
+                        <p class="text-sm text-gray">Returns</p>
+                    <p class="text-sm font-bold">& Orders</p>
+                    </div>
+
+                    <div class="cart hover:border-white-700 hover:border-2 p-2">
+                        <img class="h-10" src="/imgs/cart.svg">
+                    </div>
         </div>
         <div class="main">
 
