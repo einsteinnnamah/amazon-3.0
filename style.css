@@ -9,3 +9,11 @@
 .language{
     color: gray;
 }
+
+.options-bar{
+    background-color: #232F3F;
+}
+
+.options-text span{
+    padding: 2rem;
+}
