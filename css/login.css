@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo img{
+    height: 31px;
+    width: 103px;
+}
+
+.auth{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-login{
+    display: flex;
+    flex-direction: column;
+    border: 1px #ddd solid;
+    padding: 20px 26px!important;
+}
+
+.auth-login h1{
+    font-weight: 100;
+}
+
+.auth-login input{
+    width: 20rem;
+    height: 2rem;
+}
+
+.auth-login label{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.auth-login button{
+    margin-top: 2rem;
+     width: 20rem;
+    height: 2rem;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .10s ease-in-out;
+}
+
+.auth-login button:hover{
+    background-color: #ff990079;
+    transform: translatex(1px) translateY(1px);
+}
+
+.auth-login p{
+    font-size: 12px!important;
+    line-height: 1.5!important;
+}
+
+.auth-signup{
+    margin-top: 2rem;
+     text-align: center;
+}
+
+.auth-signup p{
+    font-size: 12px;
+}
+
+.auth-signup button{
+     width: 20rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+.password{
+    margin-top: 1rem;
+}
+
